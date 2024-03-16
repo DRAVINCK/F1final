@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Apostas</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body onload="init()">
+  <div class="container">
+    <h1>Jogo de Apostas</h1>
+    <div id="saldo">Saldo: R$100</div>
+    <input type="number" id="valorAposta" min="5" placeholder="Digite o valor da aposta">
+    <select id="pilotos">
+      <option value="vermelho">Piloto 1</option>
+      <option value="azul">Piloto 2</option>
+      <option value="verde">Piloto 3</option>
+      <option value="amarelo">Piloto 4</option>
+      <option value="roxo">Piloto 5</option>
+    </select>
+    <button onclick="realizarAposta()">Apostar</button>
+    <p id="resultado"></p>
+  </div>
+  <div class="pista">
+    <div id="vermelho" class="carro"></div>
+    <div id="azul" class="carro"></div>
+    <div id="verde" class="carro"></div>
+    <div id="amarelo" class="carro"></div>
+    <div id="roxo" class="carro"></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
