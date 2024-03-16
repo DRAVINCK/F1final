@@ -1,4 +1,4 @@
-Jogo de Apostas
+#Jogo de Apostas#
 Este é um simples jogo de apostas baseado em corrida de carros. O usuário pode escolher um dos pilotos disponíveis e apostar um valor em dinheiro. Se o piloto escolhido vencer a corrida, o usuário ganha o dobro do valor apostado. Caso contrário, o valor apostado é subtraído do saldo do usuário.
 
 Como usar
